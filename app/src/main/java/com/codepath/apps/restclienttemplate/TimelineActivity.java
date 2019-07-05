@@ -4,13 +4,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
@@ -35,8 +33,6 @@ public class TimelineActivity extends AppCompatActivity implements TweetAdapter.
     int REPLY_TO_A_TWEET = 2;
     private SwipeRefreshLayout swipeContainer;
     MenuItem miActionProgressItem;
-    private EndlessRecyclerViewScrollListener scrollListener;
-    ActionBar actionBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,7 +72,7 @@ public class TimelineActivity extends AppCompatActivity implements TweetAdapter.
                 // once the network request has completed successfully.
                 tweets.clear();
                 tweetAdapter.clear();
-                populateTimeline(0);
+                populateTimeline();
             }
         });
         // Configure the refreshing colors
@@ -96,19 +92,9 @@ public class TimelineActivity extends AppCompatActivity implements TweetAdapter.
             }
         });
 
-        //sets the endless scroll listener
-        scrollListener = new EndlessRecyclerViewScrollListener(linearLayoutManager) {
-            @Override
-            public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
-                // Triggered only when new data needs to be appended to the list
-                // Add whatever code is needed to append new items to the bottom of the list
-                loadNextDataFromApi(page);
-            }
-        };
-
-        // Adds the scroll listener to RecyclerView
-        rvTweets.addOnScrollListener(scrollListener);
+        populateTimeline();
     }//end of onCreate
+/*
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -121,7 +107,7 @@ public class TimelineActivity extends AppCompatActivity implements TweetAdapter.
         // Store instance of the menu item containing progress
         miActionProgressItem = menu.findItem(R.id.miActionProgress);
 
-        populateTimeline(0);
+
         // Return to finish
         return super.onPrepareOptionsMenu(menu);
     }
@@ -135,21 +121,7 @@ public class TimelineActivity extends AppCompatActivity implements TweetAdapter.
         // Hide progress item
         miActionProgressItem.setVisible(false);
     }
-
-    // Append the next page of data into the adapter
-    // This method probably sends out a network request and appends new data items to your adapter.
-    public void loadNextDataFromApi(int offset) {
-        long max_id = 0;
-        max_id = tweets.get(tweets.size() - 1).uid;
-        populateTimeline(max_id);
-
-
-        // Send an API request to retrieve appropriate paginated data
-        //  --> Send the request including an offset value (i.e `page`) as a query parameter.
-        //  --> Deserialize and construct new model objects from the API response
-        //  --> Append the new data objects to the existing set of items inside the array of items
-        //  --> Notify the adapter of the new items made with `notifyItemRangeInserted()`
-    }
+*/
 
     @Override
     public void onReplyClicked(Tweet tweet) {
@@ -175,9 +147,9 @@ public class TimelineActivity extends AppCompatActivity implements TweetAdapter.
 
     }
 
-    private void populateTimeline(long max_id) {
-        showProgressBar();
-        client.getHomeTimeline(max_id, new JsonHttpResponseHandler() {
+    private void populateTimeline() {
+        //showProgressBar();
+        client.getHomeTimeline(new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
                 //iterate through the JSONArray
@@ -197,7 +169,7 @@ public class TimelineActivity extends AppCompatActivity implements TweetAdapter.
                     }
                     tweetAdapter.notifyDataSetChanged();
 
-                    hideProgressBar();
+                   // hideProgressBar();
 
                 }
                 //notify the adapter
@@ -220,7 +192,7 @@ public class TimelineActivity extends AppCompatActivity implements TweetAdapter.
             @Override
             public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONArray errorResponse) {
 //                Log.d("TwitterClient", errorResponse.toString());TimelineActivity
-                hideProgressBar();
+                //hideProgressBar();
                 throwable.printStackTrace();
             }
 

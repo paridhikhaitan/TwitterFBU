@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/paridhi/Desktop/CodePath/MySimpleTweets/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/paridhi/Desktop/CodePath/TwitterApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/Users/paridhi/.gradle/caches/transforms-2/files-2.1/1d89544a941b789f8adc7249318d9ccf/res/values-v23/values-v23.xml",

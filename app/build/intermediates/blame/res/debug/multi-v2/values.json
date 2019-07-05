@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/paridhi/Desktop/CodePath/MySimpleTweets/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/paridhi/Desktop/CodePath/TwitterApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
+                {
+                    "source": "/Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2,11,21,16,24",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "17,357,718,567,811",
+                        "endLines": "8,14,21,19,24",
+                        "endColumns": "12,12,90,12,80",
+                        "endOffsets": "319,561,804,712,887"
+                    },
+                    "to": {
+                        "startLines": "618,625,629,630,634",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "40835,41142,41351,41441,41591",
+                        "endLines": "624,628,629,633,634",
+                        "endColumns": "12,12,89,12,79",
+                        "endOffsets": "41137,41346,41436,41586,41666"
+                    }
+                },
                 {
                     "source": "/Users/paridhi/.gradle/caches/transforms-2/files-2.1/f41a2546603c1280131b58be787f9947/res/values/values.xml",
                     "from": {
@@ -59,6 +78,42 @@
                     }
                 },
                 {
+                    "source": "/Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,6,5,4,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "56,196,148,101,243",
+                        "endColumns": "44,46,47,46,66",
+                        "endOffsets": "96,238,191,143,305"
+                    },
+                    "to": {
+                        "startLines": "589,597,598,599,608",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "37946,38900,38947,38995,40049",
+                        "endColumns": "44,46,47,46,66",
+                        "endOffsets": "37986,38942,38990,39037,40111"
+                    }
+                },
+                {
+                    "source": "/Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/res/values/preloaded_fonts.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "198"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "3667",
+                        "endLines": "19",
+                        "endColumns": "12",
+                        "endOffsets": "3810"
+                    }
+                },
+                {
                     "source": "/Users/paridhi/.gradle/caches/transforms-2/files-2.1/f31922e71c326bf228265e9b9681c1fc/res/values/values.xml",
                     "from": {
                         "startLines": "2,102,3,13",
@@ -75,23 +130,6 @@
                         "endLines": "42,2966,3795,3884",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "4922,195839,248190,253401"
-                    }
-                },
-                {
-                    "source": "/Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "3,6,5,4,7",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "56,196,148,101,243",
-                        "endColumns": "44,46,47,46,66",
-                        "endOffsets": "96,238,191,143,305"
-                    },
-                    "to": {
-                        "startLines": "589,597,598,599,608",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "37946,38900,38947,38995,40049",
-                        "endColumns": "44,46,47,46,66",
-                        "endOffsets": "37986,38942,38990,39037,40111"
                     }
                 },
                 {
@@ -133,23 +171,6 @@
                     }
                 },
                 {
-                    "source": "/Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/res/values/dimens.xml",
-                    "from": {
-                        "startLines": "3,4,5",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "89,147,203",
-                        "endColumns": "57,55,41",
-                        "endOffsets": "142,198,240"
-                    },
-                    "to": {
-                        "startLines": "349,350,407",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "23050,23108,26799",
-                        "endColumns": "57,55,41",
-                        "endOffsets": "23103,23159,26836"
-                    }
-                },
-                {
                     "source": "/Users/paridhi/.gradle/caches/transforms-2/files-2.1/c10168d62c14278c98bd622b5af79bb5/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,11,12,13,14,15,19,20,21,22,25,26,29,32,33,34,35,36,39,42,43,44,45,50,53,56,57,58,63,64,65,68,71,72,75,78,81,84,85,88,91,92,97,98,103,106,109,110,111,112,113,114,115,116,117,118,127,128,129,130",
@@ -188,25 +209,6 @@
                     }
                 },
                 {
-                    "source": "/Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "2,11,21,16,24",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "17,357,718,567,811",
-                        "endLines": "8,14,21,19,24",
-                        "endColumns": "12,12,90,12,80",
-                        "endOffsets": "319,561,804,712,887"
-                    },
-                    "to": {
-                        "startLines": "618,625,629,630,634",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "40835,41142,41351,41441,41591",
-                        "endLines": "624,628,629,633,634",
-                        "endColumns": "12,12,89,12,79",
-                        "endOffsets": "41137,41346,41436,41586,41666"
-                    }
-                },
-                {
                     "source": "/Users/paridhi/.gradle/caches/transforms-2/files-2.1/a3968fcb1fc2481dd52d6de567dc5a76/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -224,7 +226,7 @@
                     }
                 },
                 {
-                    "source": "/Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/res/values/font_certs.xml",
+                    "source": "/Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/res/values/font_certs.xml",
                     "from": {
                         "startLines": "2,6,11",
                         "startColumns": "4,4,4",
@@ -243,22 +245,20 @@
                     }
                 },
                 {
-                    "source": "/Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/res/values/preloaded_fonts.xml",
+                    "source": "/Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/res/values/dimens.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "198"
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "89,147,203",
+                        "endColumns": "57,55,41",
+                        "endOffsets": "142,198,240"
                     },
                     "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "3667",
-                        "endLines": "19",
-                        "endColumns": "12",
-                        "endOffsets": "3810"
+                        "startLines": "349,350,407",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "23050,23108,26799",
+                        "endColumns": "57,55,41",
+                        "endOffsets": "23103,23159,26836"
                     }
                 },
                 {

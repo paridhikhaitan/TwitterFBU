@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-51:12
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:2:1-51:12
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/1ccc839f3dbc12a62fa75c82ca6089ae/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/20ac7f3c0d0b526b9a6c93c5280e9189/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/d5589033e73adaff6389a9feb15527a5/AndroidManifest.xml:17:1-22:12
@@ -47,33 +47,33 @@ MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/paridhi/.g
 MERGED from [com.android.support:print:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/5d13119465bc75cca8ed90032b7551e4/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/210ff9a623a14bee6c790c4a829fb0f1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/22b7c12e6d045d02864fe80e15487476/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:2:1-51:12
 	package
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:3:5-51
-		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:5:5-30
-		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:7:5-67
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:7:22-64
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:7:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:8:5-81
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:8:22-78
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:8:22-78
 application
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:10:5-49:19
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:10:5-49:19
 MERGED from [com.android.support:design:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/20ac7f3c0d0b526b9a6c93c5280e9189/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/20ac7f3c0d0b526b9a6c93c5280e9189/AndroidManifest.xml:22:5-20
 MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/ee577354774d60ab106cda0b6d297277/AndroidManifest.xml:10:5-20
@@ -91,83 +91,83 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/paridhi/.gradle/
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/f41a2546603c1280131b58be787f9947/AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:14:9-41
 	android:icon
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:13:9-59
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:13:9-59
 	android:allowBackup
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:16:9-40
 	android:usesCleartextTraffic
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:15:9-44
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:15:9-44
 	android:name
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:11:9-35
 activity#com.codepath.apps.restclienttemplate.TweetItemActivity
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:17:9-55
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:17:9-55
 	android:name
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:17:19-52
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:17:19-52
 activity#com.codepath.apps.restclienttemplate.ComposeActivity
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:18:9-21:59
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:18:9-21:59
 	android:label
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:20:13-59
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:20:13-59
 	android:theme
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:21:13-56
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:21:13-56
 	android:name
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:19:13-44
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:19:13-44
 activity#com.codepath.apps.restclienttemplate.TimelineActivity
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:22:9-24:59
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:22:9-24:59
 	android:theme
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:24:13-56
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:24:13-56
 	android:name
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:23:13-45
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:23:13-45
 activity#com.codepath.apps.restclienttemplate.LoginActivity
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:25:9-44:20
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:25:9-44:20
 	android:label
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:27:13-45
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:27:13-45
 	android:theme
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:28:13-56
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:28:13-56
 	android:name
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:26:13-42
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:26:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:29:13-33:29
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:30:17-69
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:30:25-66
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:32:17-77
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:32:27-74
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:32:27-74
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:34:13-43:29
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:34:13-43:29
 action#android.intent.action.VIEW
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:35:17-69
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:35:25-66
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:35:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:37:17-76
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:37:17-76
 	android:name
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:37:27-73
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:37:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:38:17-78
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:38:17-78
 	android:name
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:38:27-75
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:38:27-75
 data
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:40:17-42:62
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:40:17-42:62
 	android:host
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:41:21-55
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:41:21-55
 	android:scheme
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:42:21-59
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:42:21-59
 meta-data#preloaded_fonts
-ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:46:9-48:57
+ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:46:9-48:57
 	android:resource
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:48:13-54
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:48:13-54
 	android:name
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:47:13-43
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml:47:13-43
 uses-sdk
-INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
-INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/1ccc839f3dbc12a62fa75c82ca6089ae/AndroidManifest.xml:7:5-9:41
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/1ccc839f3dbc12a62fa75c82ca6089ae/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/20ac7f3c0d0b526b9a6c93c5280e9189/AndroidManifest.xml:20:5-44
@@ -254,13 +254,13 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/paridhi/.gradle/cach
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/210ff9a623a14bee6c790c4a829fb0f1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/22b7c12e6d045d02864fe80e15487476/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/22b7c12e6d045d02864fe80e15487476/AndroidManifest.xml:20:5-44
-INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
-INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
-		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/paridhi/Desktop/CodePath/TwitterApp/app/src/main/AndroidManifest.xml
