@@ -1,0 +1,266 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-51:12
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/1ccc839f3dbc12a62fa75c82ca6089ae/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/20ac7f3c0d0b526b9a6c93c5280e9189/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/d5589033e73adaff6389a9feb15527a5/AndroidManifest.xml:17:1-22:12
+MERGED from [jp.wasabeef:glide-transformations:3.3.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/a37e0b6a76b96274fe989466d2cea766/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/ee577354774d60ab106cda0b6d297277/AndroidManifest.xml:2:1-12:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/9748dcc486ef6c051f09707221ad3c46/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/c10168d62c14278c98bd622b5af79bb5/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/e1629d2c0edcd7d903e462d4843d94cb/AndroidManifest.xml:2:1-13:12
+MERGED from [android.arch.paging:runtime:1.0.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/e567509ef9267099edf66529b2e50096/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/57ddd75a4c9876392c99f734796977d4/AndroidManifest.xml:17:1-22:12
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/5303999bded39782661316ed467aed63/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/23f5c2ecceed756931c6fb76dcf68bd3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/e2aef4e99f3f83682eafb5a4062e9008/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/ecae3b0e381f3076528be261be5b27fe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/b2d2afb4c54c87973304012d19eb4d32/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/27a5edb5c116947cf0a4a2811ffa79b6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/d02da59bda29e15963626f5a46a8e552/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/a3968fcb1fc2481dd52d6de567dc5a76/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/ef17773dde8880ea124c3dee67773ce4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/c59acac7b19050c128abd864f6e7a61e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/f2afdb40441bd35d7d0af5bcf9511581/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/f31922e71c326bf228265e9b9681c1fc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/1bc2da997e6bde5b803f6f3fd4c0103c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/16ef4ad02aa3d863daeb5dcfba9f5beb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/54b6382cf7f38289ef86e065e4664bb9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/01d88a99153ef502132792f0f98619d1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/7815d06d70a2cfec423f6b4700ea6ae3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/f41a2546603c1280131b58be787f9947/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/60ccd84342a614772149cd34c8bf0c4c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/f82393c3b1840b5408149cc92ea40391/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/be2eebe3c796ebfe2d5627d00135e65b/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/d78840244a86f15c94fa4c015dc25699/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/bac29cd0c9fe1e12da9aeda7f4638fc7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/8ba9ce41755d57549c080b0ee3bfe02a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/2563323774ffe9a0ffb9c31750708f16/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/1e7eafb13d591c1e1c5a9d785f2f81f8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/1d89544a941b789f8adc7249318d9ccf/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/8a7b1d3e3aa02b4aab93a719345c3617/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/51224746c58b1ae67c98d74c86cb90c6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/bb0a2d28a0540aacb31838642203ba28/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/5d13119465bc75cca8ed90032b7551e4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/210ff9a623a14bee6c790c4a829fb0f1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/22b7c12e6d045d02864fe80e15487476/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:10:5-49:19
+MERGED from [com.android.support:design:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/20ac7f3c0d0b526b9a6c93c5280e9189/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/20ac7f3c0d0b526b9a6c93c5280e9189/AndroidManifest.xml:22:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/ee577354774d60ab106cda0b6d297277/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/ee577354774d60ab106cda0b6d297277/AndroidManifest.xml:10:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/c10168d62c14278c98bd622b5af79bb5/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/c10168d62c14278c98bd622b5af79bb5/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/e1629d2c0edcd7d903e462d4843d94cb/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/e1629d2c0edcd7d903e462d4843d94cb/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/f41a2546603c1280131b58be787f9947/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/f41a2546603c1280131b58be787f9947/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/60ccd84342a614772149cd34c8bf0c4c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/60ccd84342a614772149cd34c8bf0c4c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/be2eebe3c796ebfe2d5627d00135e65b/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/be2eebe3c796ebfe2d5627d00135e65b/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/f41a2546603c1280131b58be787f9947/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:13:9-59
+	android:allowBackup
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:16:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:15:9-44
+	android:name
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:11:9-35
+activity#com.codepath.apps.restclienttemplate.TweetItemActivity
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:17:9-55
+	android:name
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:17:19-52
+activity#com.codepath.apps.restclienttemplate.ComposeActivity
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:18:9-21:59
+	android:label
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:20:13-59
+	android:theme
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:21:13-56
+	android:name
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:19:13-44
+activity#com.codepath.apps.restclienttemplate.TimelineActivity
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:22:9-24:59
+	android:theme
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:24:13-56
+	android:name
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:23:13-45
+activity#com.codepath.apps.restclienttemplate.LoginActivity
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:25:9-44:20
+	android:label
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:27:13-45
+	android:theme
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:28:13-56
+	android:name
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:26:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:32:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:34:13-43:29
+action#android.intent.action.VIEW
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:37:17-76
+	android:name
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:37:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:38:17-78
+	android:name
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:38:27-75
+data
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:40:17-42:62
+	android:host
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:41:21-55
+	android:scheme
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:42:21-59
+meta-data#preloaded_fonts
+ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:46:9-48:57
+	android:resource
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:48:13-54
+	android:name
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml:47:13-43
+uses-sdk
+INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/1ccc839f3dbc12a62fa75c82ca6089ae/AndroidManifest.xml:7:5-9:41
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/1ccc839f3dbc12a62fa75c82ca6089ae/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/20ac7f3c0d0b526b9a6c93c5280e9189/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/20ac7f3c0d0b526b9a6c93c5280e9189/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/d5589033e73adaff6389a9feb15527a5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/d5589033e73adaff6389a9feb15527a5/AndroidManifest.xml:20:5-44
+MERGED from [jp.wasabeef:glide-transformations:3.3.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/a37e0b6a76b96274fe989466d2cea766/AndroidManifest.xml:7:5-9:41
+MERGED from [jp.wasabeef:glide-transformations:3.3.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/a37e0b6a76b96274fe989466d2cea766/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/ee577354774d60ab106cda0b6d297277/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/ee577354774d60ab106cda0b6d297277/AndroidManifest.xml:6:5-8:41
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/9748dcc486ef6c051f09707221ad3c46/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/9748dcc486ef6c051f09707221ad3c46/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/c10168d62c14278c98bd622b5af79bb5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/c10168d62c14278c98bd622b5af79bb5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/e1629d2c0edcd7d903e462d4843d94cb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/e1629d2c0edcd7d903e462d4843d94cb/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.paging:runtime:1.0.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/e567509ef9267099edf66529b2e50096/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.paging:runtime:1.0.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/e567509ef9267099edf66529b2e50096/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/57ddd75a4c9876392c99f734796977d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/57ddd75a4c9876392c99f734796977d4/AndroidManifest.xml:20:5-44
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/5303999bded39782661316ed467aed63/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/5303999bded39782661316ed467aed63/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/23f5c2ecceed756931c6fb76dcf68bd3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/23f5c2ecceed756931c6fb76dcf68bd3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/e2aef4e99f3f83682eafb5a4062e9008/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/e2aef4e99f3f83682eafb5a4062e9008/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/ecae3b0e381f3076528be261be5b27fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/ecae3b0e381f3076528be261be5b27fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/b2d2afb4c54c87973304012d19eb4d32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/b2d2afb4c54c87973304012d19eb4d32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/27a5edb5c116947cf0a4a2811ffa79b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/27a5edb5c116947cf0a4a2811ffa79b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/d02da59bda29e15963626f5a46a8e552/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/d02da59bda29e15963626f5a46a8e552/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/a3968fcb1fc2481dd52d6de567dc5a76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/a3968fcb1fc2481dd52d6de567dc5a76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/ef17773dde8880ea124c3dee67773ce4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/ef17773dde8880ea124c3dee67773ce4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/c59acac7b19050c128abd864f6e7a61e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/c59acac7b19050c128abd864f6e7a61e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/f2afdb40441bd35d7d0af5bcf9511581/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/f2afdb40441bd35d7d0af5bcf9511581/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/f31922e71c326bf228265e9b9681c1fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/f31922e71c326bf228265e9b9681c1fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/1bc2da997e6bde5b803f6f3fd4c0103c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/1bc2da997e6bde5b803f6f3fd4c0103c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/16ef4ad02aa3d863daeb5dcfba9f5beb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/16ef4ad02aa3d863daeb5dcfba9f5beb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/54b6382cf7f38289ef86e065e4664bb9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/54b6382cf7f38289ef86e065e4664bb9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/01d88a99153ef502132792f0f98619d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/01d88a99153ef502132792f0f98619d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/7815d06d70a2cfec423f6b4700ea6ae3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/7815d06d70a2cfec423f6b4700ea6ae3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/f41a2546603c1280131b58be787f9947/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/f41a2546603c1280131b58be787f9947/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/60ccd84342a614772149cd34c8bf0c4c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/60ccd84342a614772149cd34c8bf0c4c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/f82393c3b1840b5408149cc92ea40391/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/f82393c3b1840b5408149cc92ea40391/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/be2eebe3c796ebfe2d5627d00135e65b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/be2eebe3c796ebfe2d5627d00135e65b/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/d78840244a86f15c94fa4c015dc25699/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/d78840244a86f15c94fa4c015dc25699/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/bac29cd0c9fe1e12da9aeda7f4638fc7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/bac29cd0c9fe1e12da9aeda7f4638fc7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/8ba9ce41755d57549c080b0ee3bfe02a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/8ba9ce41755d57549c080b0ee3bfe02a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/2563323774ffe9a0ffb9c31750708f16/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/2563323774ffe9a0ffb9c31750708f16/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/1e7eafb13d591c1e1c5a9d785f2f81f8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/1e7eafb13d591c1e1c5a9d785f2f81f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/1d89544a941b789f8adc7249318d9ccf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/1d89544a941b789f8adc7249318d9ccf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/8a7b1d3e3aa02b4aab93a719345c3617/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/8a7b1d3e3aa02b4aab93a719345c3617/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/51224746c58b1ae67c98d74c86cb90c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/51224746c58b1ae67c98d74c86cb90c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/bb0a2d28a0540aacb31838642203ba28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/bb0a2d28a0540aacb31838642203ba28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/5d13119465bc75cca8ed90032b7551e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/5d13119465bc75cca8ed90032b7551e4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/210ff9a623a14bee6c790c4a829fb0f1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/210ff9a623a14bee6c790c4a829fb0f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/22b7c12e6d045d02864fe80e15487476/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/paridhi/.gradle/caches/transforms-2/files-2.1/22b7c12e6d045d02864fe80e15487476/AndroidManifest.xml:20:5-44
+INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+		ADDED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/paridhi/Desktop/CodePath/MySimpleTweets/app/src/main/AndroidManifest.xml

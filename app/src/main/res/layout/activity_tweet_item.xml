@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="4sp"
+    tools:context=".TweetItemActivity">
+
+    <ImageView
+        android:id="@+id/item_profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/item_tweet_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:color/holo_blue_light" />
+
+    <TextView
+        android:id="@+id/item_user_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/item_profile_image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/item_user_handle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/quicksand"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/item_profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/item_user_name" />
+
+    <TextView
+        android:id="@+id/item_tweet_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/quicksand"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/item_createdAt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_profile_image" />
+
+    <TextView
+        android:id="@+id/item_createdAt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/quicksand"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_tweet_content" />
+
+    <TextView
+        android:id="@+id/numOfRetweets"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/numOfLikes"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_createdAt" />
+
+    <TextView
+        android:id="@+id/numOfLikes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/numOfRetweets"
+        app:layout_constraintTop_toBottomOf="@+id/item_createdAt" />
+
+    <ImageView
+        android:id="@+id/retweetButton"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toStartOf="@+id/likeButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numOfRetweets"
+        app:srcCompat="@drawable/ic_vector_retweet_stroke" />
+
+    <ImageView
+        android:id="@+id/likeButton"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/userRetweet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/retweetButton"
+        app:layout_constraintTop_toBottomOf="@+id/numOfLikes"
+        app:srcCompat="@drawable/ic_vector_heart_stroke" />
+
+    <EditText
+        android:id="@+id/userRetweet"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/edittext_rounded_corners"
+        android:ems="10"
+        android:paddingLeft="25dp"
+
+        android:fontFamily="@font/quicksand"
+        android:hint="Tweet your reply"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/buttonSendReply"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/likeButton" />
+
+    <Button
+        android:id="@+id/buttonSendReply"
+        android:layout_width="83dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/border_outline"
+        android:fontFamily="@font/quicksand"
+        android:text="Reply"
+        android:textColor="#38A1F3"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userRetweet" />
+
+</android.support.constraint.ConstraintLayout>
+
+</ScrollView>
