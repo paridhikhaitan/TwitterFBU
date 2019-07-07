@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Jul 05 12:51:09 PDT 2019
+#Fri Jul 05 17:02:19 PDT 2019
 17.baseType=DIRECTORY
 4.path=lib/x86_64/libRSSupport.so
 8.set=NATIVE_RESOURCE

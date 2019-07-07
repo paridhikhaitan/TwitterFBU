@@ -13,10 +13,12 @@ public class Tweet implements Serializable {
     public long uid;
 
     public User user;
-    public Entities entities;
+   // public Entities entities;
     public String createAt;
     public int retweetCount;
     public int likeCount;
+   // public boolean hasEntities;
+    public Entity entity;
     public boolean hasEntities;
 
     public static Tweet fromJSON (JSONObject jsonObject) throws JSONException {
@@ -29,11 +31,25 @@ public class Tweet implements Serializable {
         tweet.createAt= jsonObject.getString("created_at");
         tweet.retweetCount=jsonObject.getInt("retweet_count");
         tweet.likeCount= jsonObject.getInt("favorite_count");
-        tweet.hasEntities= false;
+       // tweet.hasEntities= false;
+
+        JSONObject entityObject= jsonObject.getJSONObject("entities");
+        if(entityObject.has("media")){
+            JSONArray mediaEndpoint= entityObject.getJSONArray("media");
+            if(mediaEndpoint!=null && mediaEndpoint.length()!=0){
+                tweet.entity= Entity.fromJSON(jsonObject.getJSONObject("entities"));
+                tweet.hasEntities=true;
+            }else{
+                tweet.hasEntities=false;
+            }
+        }
+
+        //tweet.entity= Entity.fromJSON()
 
         //this actually connects the user with the tweet-> then when I call the tweet all the user
         //information will come directly
         tweet.user= User.fromJSON(jsonObject.getJSONObject("user"));
+/*
 
         JSONObject entities = jsonObject.getJSONObject("entities");
 
@@ -45,6 +61,8 @@ public class Tweet implements Serializable {
                 tweet.hasEntities=true;
             }
         }
+*/
+
 
 
         //tweet.entities=jsonObject.getJSONArray("entities");

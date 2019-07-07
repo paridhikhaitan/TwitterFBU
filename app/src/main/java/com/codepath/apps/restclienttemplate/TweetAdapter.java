@@ -53,7 +53,9 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
             ivProfileImage= (ImageView) itemView.findViewById(R.id.ivProfileImage);
             tvUserName= (TextView) itemView.findViewById(R.id.tvUserName);
             tvBody= (TextView) itemView.findViewById(R.id.tvBody);
-            tweet_entity= (ImageView) itemView.findViewById(R.id.tweet_entity);
+            tweet_entity= (ImageView) itemView.findViewById(R.id.entity_tweet);
+          //  tweet_entity= (ImageView) itemView.findViewById(R.id.tweet_entity);
+
 
             itemView.setOnClickListener(this);
 
@@ -115,6 +117,17 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
 
         Glide.with(context).load(url).transform(new RoundedCornersTransformation(25, 0)).into(viewHolder.ivProfileImage);
 
+
+        if(tweet.hasEntities==true){
+            String entityUrl= tweet.entity.loadURL;
+            viewHolder.tweet_entity.setVisibility(View.VISIBLE);
+            Glide.with(context).load(entityUrl).into(viewHolder.tweet_entity);
+        }else{
+            viewHolder.tweet_entity.setVisibility(View.GONE);
+        }
+        /*
+
+
         if(tweet.hasEntities==true) {
             String entityUrl = tweet.entities.loadURL;
             if (entityUrl != null) {
@@ -124,6 +137,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
         }else {
             viewHolder.tweet_entity.setVisibility(View.GONE);
         }
+*/
 
 
         //then we'll know

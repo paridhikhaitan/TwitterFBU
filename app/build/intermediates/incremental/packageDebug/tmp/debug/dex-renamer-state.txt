@@ -1,4 +1,4 @@
-#Fri Jul 05 12:51:09 PDT 2019
+#Fri Jul 05 17:02:18 PDT 2019
 base.0=/Users/paridhi/Desktop/CodePath/TwitterApp/app/build/intermediates/dex/debug/mergeDexDebug/out
 path.0=classes.dex
 renamed.0=classes.dex

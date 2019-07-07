@@ -1113,6 +1113,7 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id entity_tweet
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1264,7 +1265,6 @@ id tvBody
 id tvUserName
 id tweet_button
 id tweet_content
-id tweet_entity
 id uniform
 id unlabeled
 id up

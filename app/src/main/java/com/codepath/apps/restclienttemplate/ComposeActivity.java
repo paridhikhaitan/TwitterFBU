@@ -8,7 +8,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
@@ -59,7 +58,7 @@ public class ComposeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 userTweet= tweetContent.getText().toString();
-                Toast.makeText(ComposeActivity.this, "This is user tweet"+userTweet, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(ComposeActivity.this, "This is user tweet"+userTweet, Toast.LENGTH_SHORT).show();
                 postTweet(userTweet);
             }
         });

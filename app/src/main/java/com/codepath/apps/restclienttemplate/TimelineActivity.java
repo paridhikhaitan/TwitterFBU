@@ -33,6 +33,9 @@ public class TimelineActivity extends AppCompatActivity implements TweetAdapter.
     int REPLY_TO_A_TWEET = 2;
     private SwipeRefreshLayout swipeContainer;
     MenuItem miActionProgressItem;
+    private EndlessRecyclerViewScrollListener scrollListener;
+    long maxId=0;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,7 +58,7 @@ public class TimelineActivity extends AppCompatActivity implements TweetAdapter.
         //construct the adapter from the data source
         tweetAdapter = new TweetAdapter(tweets);
         tweetAdapter.setTweetClickListener(this);
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        LinearLayoutManager linearLayoutManager= new LinearLayoutManager(this);
 
         //RecyclerView setup (layout manager, use adapter
         rvTweets.setLayoutManager(linearLayoutManager);
@@ -72,7 +75,7 @@ public class TimelineActivity extends AppCompatActivity implements TweetAdapter.
                 // once the network request has completed successfully.
                 tweets.clear();
                 tweetAdapter.clear();
-                populateTimeline();
+                populateTimeline(maxId);
             }
         });
         // Configure the refreshing colors
@@ -92,8 +95,24 @@ public class TimelineActivity extends AppCompatActivity implements TweetAdapter.
             }
         });
 
-        populateTimeline();
-    }//end of onCreate
+        scrollListener = new EndlessRecyclerViewScrollListener(linearLayoutManager) {
+            @Override
+            public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
+                // Triggered only when new data needs to be appended to the list
+                // Add whatever code is needed to append new items to the bottom of the list
+                loadNextDataFromApi(page);
+            }
+        };
+        // Adds the scroll listener to RecyclerView
+        rvTweets.addOnScrollListener(scrollListener);
+
+        populateTimeline(maxId);
+    }
+
+    public void loadNextDataFromApi(int offset) {
+        maxId= tweets.get(tweets.size()-1).uid;
+        populateTimeline(maxId);
+    }
 /*
 
     @Override
@@ -147,9 +166,9 @@ public class TimelineActivity extends AppCompatActivity implements TweetAdapter.
 
     }
 
-    private void populateTimeline() {
+    private void populateTimeline(long maxId) {
         //showProgressBar();
-        client.getHomeTimeline(new JsonHttpResponseHandler() {
+        client.getHomeTimeline(maxId, new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
                 //iterate through the JSONArray
@@ -162,7 +181,6 @@ public class TimelineActivity extends AppCompatActivity implements TweetAdapter.
                         tweet = Tweet.fromJSON(response.getJSONObject(i));
                         //add that Tweet model to our data source
                         tweets.add(tweet);
-                        //deals with refreshing
 
                     } catch (JSONException e) {
                         e.printStackTrace();
